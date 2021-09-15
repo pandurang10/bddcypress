@@ -1,0 +1,33 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "genrateReport": "node cucumber-html-report.js",
+    "Smoke": "npx cypress-tags run -e TAGS='@Smoke' --headed --browser chrome",
+    "--SimpleRun": ".\\node_modules\\.bin\\cypress run test -- --headed"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/examples/BDD/calcSetpDefinitions/**",    
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "PandurangAmbekar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "dependencies": {}
+}
