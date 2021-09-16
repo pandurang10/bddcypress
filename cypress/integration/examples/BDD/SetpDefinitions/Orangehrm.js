@@ -6,7 +6,7 @@ import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 
 
-Given(' User is at the login page',()=>{
+Given('User is at the login page',()=>{
    
 LoginPage.loadHomepage();
 
