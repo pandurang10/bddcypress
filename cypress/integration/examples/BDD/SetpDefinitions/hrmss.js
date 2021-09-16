@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 import LoginPage from './LoginPage'
-import Hrms1page from './Hrms1page'
-import ViewEmployeeList from './ViewEmployeeList';
+import Hrms1page from '../PageObject/Hrms1page'
+import ViewEmployeeList from '../PageObject/ViewEmployeeList';
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 
