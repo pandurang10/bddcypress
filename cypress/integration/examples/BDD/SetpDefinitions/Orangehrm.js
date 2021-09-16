@@ -1,4 +1,5 @@
 /// <reference types="Cypress" />
+import Orangehrm from '../SetpDefinitions/Orangehrm'
 import LoginPage from '../PageObject/LoginPage'
 import Hrms1page from '../PageObject/EmpolyeeSearch'
 import ViewEmployeeList from '../PageObject/ViewEmployeeList';
