@@ -1,0 +1,98 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-13T07:16:07.292Z",
+    "end": "2021-09-13T07:16:20.736Z",
+    "duration": 13444,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a9a2cdb6-3365-40dd-acab-633882286d90",
+      "title": "",
+      "fullFile": "cypress/integration/examples/BDD/crm.feature",
+      "file": "cypress/integration/examples/BDD/crm.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "119def84-c955-4345-b83c-f770b492f2df",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login to Orange CRM Website (example #1)",
+              "fullTitle": "Login Login to Orange CRM Website (example #1)",
+              "timedOut": null,
+              "duration": 8770,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "ec678ab8-8845-4266-9988-3b58705fe348",
+              "parentUUID": "119def84-c955-4345-b83c-f770b492f2df",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ec678ab8-8845-4266-9988-3b58705fe348"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8770,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "useInlineDiffs": false
+      },
+      "version": "4.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}

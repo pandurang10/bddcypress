@@ -1,0 +1,395 @@
+[
+  {
+    "description": "    As User, I want to verify all operation, so that we can enjoy the Basic Calculator application with diffrent build number",
+    "keyword": "Feature",
+    "name": "End to end Basic Calculator validation",
+    "line": 1,
+    "id": "end-to-end-basic-calculator-validation",
+    "tags": [],
+    "uri": "bascicalc.feature",
+    "elements": [
+      {
+        "id": "end-to-end-basic-calculator-validation;verify-add-operation",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify Add operation",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Basic Calculator Page",
+            "result": {
+              "status": "passed",
+              "duration": 2441000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "build"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Select Build number",
+            "result": {
+              "status": "passed",
+              "duration": 328000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "first",
+                      "second"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "10",
+                      "20"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Enter first and second number",
+            "result": {
+              "status": "passed",
+              "duration": 527000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "operation"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Add"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Select Operation",
+            "result": {
+              "status": "passed",
+              "duration": 428000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "30"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Validate Result",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-basic-calculator-validation;verify-substract-operation",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify Substract operation",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I open Basic Calculator Page",
+            "result": {
+              "status": "passed",
+              "duration": 997000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "build"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 23,
+            "name": "Select Build number",
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "first",
+                      "number"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "10",
+                      "20"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Enter first and second number",
+            "result": {
+              "status": "passed",
+              "duration": 536000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "operation"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sub"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Select Operation",
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "-10"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Validate Result",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-basic-calculator-validation;verify-multiplication-operation",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Verify Multiplication operation",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 53
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 55,
+            "name": "I open Basic Calculator Page",
+            "result": {
+              "status": "passed",
+              "duration": 634000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "build"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 56,
+            "name": "Select Build number",
+            "result": {
+              "status": "passed",
+              "duration": 336000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "first",
+                      "number"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "20",
+                      "20"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 59,
+            "name": "Enter first and second number",
+            "result": {
+              "status": "passed",
+              "duration": 520000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "operation"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Multiply"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 62,
+            "name": "Select Operation",
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "200"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "Validate Result",
+            "result": {
+              "status": "failed",
+              "duration": 8029000000,
+              "error_message": "AssertionError: Timed out retrying after 8000ms: expected '<input#numberAnswerField.element.text.medium>' to have value '200', but the value was '400'\n    + expected - actual\n\n    -'400'\n    +'200'\n\n    at Context.eval (https://testsheepnz.github.io/__cypress/tests?p=cypress\\integration\\examples\\BDD\\bascicalc.feature:96:32)\n    at Context.resolveAndRunStepDefinition (https://testsheepnz.github.io/__cypress/tests?p=cypress\\integration\\examples\\BDD\\bascicalc.feature:12472:9)\n    at Context.eval (https://testsheepnz.github.io/__cypress/tests?p=cypress\\integration\\examples\\BDD\\bascicalc.feature:11814:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
