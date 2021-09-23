@@ -1,0 +1,133 @@
+[
+  {
+    "description": "    I want to shop on Tools QA Shopping Website",
+    "keyword": "Feature",
+    "name": "Shopping on Tools QA",
+    "line": 1,
+    "id": "shopping-on-tools-qa",
+    "tags": [],
+    "uri": "Assignment.feature",
+    "elements": [
+      {
+        "id": "shopping-on-tools-qa;placing-order-for-2-shirts",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Placing Order for 2 Shirts",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open the Url",
+            "result": {
+              "status": "passed",
+              "duration": 8196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Click on MyAccount",
+            "result": {
+              "status": "passed",
+              "duration": 3095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "entering username as \"Niketan\" and password as \"niketan123!@#\"",
+            "result": {
+              "status": "passed",
+              "duration": 689000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click on logging button",
+            "result": {
+              "status": "passed",
+              "duration": 1686000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Click on Search & Enter product as \"Shirt\"",
+            "result": {
+              "status": "passed",
+              "duration": 2468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Click on product",
+            "result": {
+              "status": "passed",
+              "duration": 4157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Select Color as \"Pink\" and Size as \"36\" of product",
+            "result": {
+              "status": "passed",
+              "duration": 814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on Add to cart",
+            "result": {
+              "status": "passed",
+              "duration": 1759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Shop cart",
+            "result": {
+              "status": "passed",
+              "duration": 1469000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Validate the order",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click to proceed",
+            "result": {
+              "status": "undefined",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

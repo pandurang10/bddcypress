@@ -1,18 +1,3 @@
 {
-  "chromeWebSecurity":false,
-  "defaultCommandTimeout": 8000,
-  "pageLoadTimeout": 30000,
-  "reporter": "mochawesome",
-  
-  "env": {
-    "url": "https://testsheepnz.github.io/BasicCalculator.html"
-  },
-  
-  "testFiles": "**/*.{feature,features}",
-
-  "retries": {    
-    "runMode": 0
-  },
-
-  "projectId": "basic_calc"
-}
+    "testFiles": "**/*.{feature,features}"
+  }

@@ -1,2 +1,0 @@
-# bddcypress
-Training
