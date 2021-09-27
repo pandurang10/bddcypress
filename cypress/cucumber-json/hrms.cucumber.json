@@ -1,0 +1,169 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "hrms.feature",
+    "elements": [
+      {
+        "id": "login;login-to-orange-crm-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login to Orange CRM Website",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "status": "passed",
+              "duration": 8373000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Admin",
+                      "admin123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User entering userid and pass",
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 11355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;employee-search",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Employee search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User is at the login page",
+            "result": {
+              "status": "passed",
+              "duration": 5453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User entering userid and pass",
+            "result": {
+              "status": "passed",
+              "duration": 724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clicks on login button",
+            "result": {
+              "status": "passed",
+              "duration": 6592000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Click on PIM option",
+            "result": {
+              "status": "passed",
+              "duration": 6755000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Click on Employee list option",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Enter Employee Name",
+            "result": {
+              "status": "passed",
+              "duration": 1026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Click on Search Button",
+            "result": {
+              "status": "passed",
+              "duration": 1873000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
